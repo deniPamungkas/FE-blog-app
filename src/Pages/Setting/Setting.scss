@@ -1,0 +1,83 @@
+.setting{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    .wrap-setting{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 500px;
+        width: 80vw;
+        .top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            h1,h5{
+                font-family: 'Lora','Arial';
+
+            }
+        }
+        .center{
+            width: 100%;
+            .profile-pic{
+                h3{
+                font-family: 'Lora','Arial';
+                }
+                .wrap-img{
+                    margin-top: 10px;
+                    width: 70px;
+                    height: 70px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 10px;
+                        object-fit: cover;
+                    }
+                }
+            }
+            .profile-data{
+                width: 100%;
+                height: auto;
+                text-align: center;
+                .data{
+                margin-top: 30px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 100%;
+                height: 60px;
+                label{
+                    font-family: 'Lora','Arial';
+                }
+                input{
+                    width: 100%;
+                    height: 30px;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid gray;
+                    padding: 0 5px;
+                }
+                }
+                #btn{
+                    margin-top: 20px;
+                    outline: none;
+                    padding: 5px 20px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:767px) {
+    .setting{
+        .wrap-setting{
+            .top{
+                h1{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

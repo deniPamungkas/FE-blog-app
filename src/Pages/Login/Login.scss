@@ -1,0 +1,62 @@
+.login{
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    img{
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .wrap-login{
+        width: 300px;
+        margin: auto;
+        height: 400px;
+        text-align: center;
+        padding-top: 100px;
+        h1{
+            font-family: 'Lora','Poppins', 'Arial';
+        }
+        .form-login{
+            height: 300px;
+            width: 100%;
+            .form{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                margin-top: 30px;
+                width: 100%;
+                .input-form{
+                    width: 100%;
+                    height: 40px;
+                    outline: none;
+                    border: none;
+                    background-color: rgba(0,0,0,0);
+                    border-bottom: 1px solid black;
+                }
+            }
+            .btn,.btn-reg{
+                color: white;
+                font-weight: 500;
+                background-color: tomato;
+                margin-top: 10px;
+                display: block;
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                width: 100%;
+                padding: 8px 0;
+            }
+            .btn{
+                margin-top: 30px;
+                background-color: teal;
+            }
+            .btn:disabled{
+                cursor: not-allowed;
+                background-color: rgb(100, 128, 128);
+            }
+        }
+    }
+}

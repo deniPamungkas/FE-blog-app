@@ -1,0 +1,19 @@
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 78.5vw;
+    height: auto;
+    position: relative;
+    background-color: rgb(240, 240, 240);
+}
+@media only screen and (max-width:900px) {
+    .posts{
+        width: 73vw;
+    }
+}
+@media only screen and (max-width:767px) {
+    .posts{
+        width: 100vw;
+    }
+}

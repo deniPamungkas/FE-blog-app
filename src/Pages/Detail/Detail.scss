@@ -1,0 +1,28 @@
+.detail{
+    padding: 20px 150px;
+}
+@media only screen and (min-width:1400px) {
+    .detail{
+        padding: 20px 250px;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .detail{
+        padding: 20px 80px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .detail{
+        padding: 10px 70px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .detail{
+        padding: 5px 30px;
+    }
+}
+@media only screen and (max-width:359px) {
+    .detail{
+        padding: 5px 10px;
+    }
+}
